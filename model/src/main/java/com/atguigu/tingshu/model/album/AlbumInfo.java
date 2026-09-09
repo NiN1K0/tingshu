@@ -1,8 +1,11 @@
 package com.atguigu.tingshu.model.album;
 
+import com.alibaba.fastjson.annotation.JSONField;
 import com.atguigu.tingshu.model.base.BaseEntity;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.fasterxml.jackson.annotation.JsonFilter;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.Data;
 
@@ -12,6 +15,7 @@ import java.util.List;
 @Data
 @Schema(description = "AlbumInfo")
 @TableName("album_info")
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class AlbumInfo extends BaseEntity {
 
 	private static final long serialVersionUID = 1L;

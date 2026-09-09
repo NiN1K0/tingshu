@@ -13,7 +13,8 @@ public class SystemConstant {
 
     //专辑状态 0301-审核通过 0302-审核不通过
     public static final String  ALBUM_STATUS_PASS="0301";  // 审核通过
-    public static final String  ALBUM_STATUS_NO_PASS="0302";  // 审核不通过
+    public static final String  ALBUM_STATUS_NO_PASS="0302"; // 审核不通过
+    public static final String  ALBUM_STATUS_MANUAL="0303"; // 人工审核
 
     //专辑统计 0401-播放量 0402-订阅量 0403-购买量 0403-评论数
     public static final String  ALBUM_STAT_PLAY="0401";  // 播放量
@@ -23,7 +24,10 @@ public class SystemConstant {
 
     //声音状态 0501-审核通过 0502"-审核不通过
     public static final String  TRACK_STATUS_PASS="0501";  // 审核通过
-    public static final String  TRACK_STATUS_NO_PASS="0502";  // 审核不通过
+    public static final String  TRACK_STATUS_NO_PASS="0502"; // 审核不通过
+    public static final String  TRACK_STATUS_MANUAL="0503"; // 人工审核
+    public static final String  TRACK_STATUS_REVIEWING="0504"; // 机审中
+
 
     //声音来源 0601-用户原创 0602-上传
     public static final String  TRACK_SOURCE_USER="0601";  // 用户原创

@@ -9,11 +9,11 @@ import java.math.BigDecimal;
 @Schema(description = "用户声音列表信息")
 public class TrackListVo {
 
-	@Schema(description = "专辑id")
-	private Long albumId;
-
-	@Schema(description = "标题")
-	private String albumTitle;
+//	@Schema(description = "专辑id")
+//	private Long albumId;
+//
+//	@Schema(description = "标题")
+//	private String albumTitle;
 
 	@Schema(description = "声音id")
 	private Long trackId;

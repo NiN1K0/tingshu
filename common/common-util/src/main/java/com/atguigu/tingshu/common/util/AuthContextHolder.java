@@ -1,8 +1,11 @@
 package com.atguigu.tingshu.common.util;
 
+import org.springframework.context.annotation.Configuration;
+
 /**
  * 获取当前用户信息帮助类
  */
+@Configuration
 public class AuthContextHolder {
 
     private static ThreadLocal<Long> userId = new ThreadLocal<Long>();
